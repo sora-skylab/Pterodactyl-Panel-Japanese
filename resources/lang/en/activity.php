@@ -21,6 +21,9 @@ return [
         ],
     ],
     'user' => [
+        'user' => [
+            'create' => ':email を新しいユーザーとして作成しました',
+        ],
         'account' => [
             'email-changed' => 'メールを :old から :new に変更しました',
             'password-changed' => 'パスワードを変更しました',
